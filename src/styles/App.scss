@@ -79,10 +79,10 @@ $eDisplay: grid;
     display: flex;
 }
 .projectCardContainer{
-    //Overflow :(
+    overflow-x: visible;
     display: grid;
     grid-column: 2/3;
-    width: 1200px;
+    width: 200%;
     position: relative;
     align-self: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -133,6 +133,7 @@ $eDisplay: grid;
     width: auto;
     height: auto;
     align-self: center;
+    border-radius: 1%;
 }
 .logoBIG{
     width: auto;
@@ -171,4 +172,14 @@ $eDisplay: grid;
     max-height: 100px;
     width: auto;
     height: auto;
+}
+.learning{
+    text-align: center;
+    flex-direction: column;
+    height: 70%;
+    width: 100%;
+    color: #057DCD;
+    position: relative;
+    left: 50px;
+    bottom: 40px;
 }

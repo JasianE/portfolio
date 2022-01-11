@@ -11,16 +11,16 @@ const Timeline = () => {
     
     //:()
     const stories = [
-        {date: 'October', story: '1212', id: 1},
-        {date: 'November', story: '', id: 2},
-        {date: 'December', story: '', id: 3},
-        {date: 'January', story: '', id: 4},
-        {date: 'February', story: '', id: 5},
-        {date: 'March', story: '', id: 6},
-        {date: 'April', story: '', id: 7},
-        {date: 'May', story: '', id: 8},
-        {date: 'June', story: '', id: 9},
-        {date: 'July', story: '', id: 10},
+        {date: 'October', story: ['HTML', 'CSS', 'GIT'], id: 1},
+        {date: 'November', story: ['JS', 'DOM', 'CLI', 'LINUX'], id: 2},
+        {date: 'December', story: ['OOP', 'FUNCTIONAL PROGRMAMING BASICS'], id: 3},
+        {date: 'January', story: ['Nothing :()'], id: 4},
+        {date: 'February', story: ['INHERITANCE', 'FACTORY FUNCTIONS', 'CLOSURE', 'CLASSES'], id: 5},
+        {date: 'March', story: ['MODULAR CODE', 'WEBPACK', 'OOP PRINCIPLES', 'NPM'], id: 6},
+        {date: 'April', story: ['JSON', 'ASYNC', 'JEST', 'FUNCTIONAL REACT'], id: 7},
+        {date: 'May', story: ['FIREBASE'], id: 8},
+        {date: 'June', story: ['NODEJS', 'EXPRESS', 'MONGODB', 'MONGOOSE'], id: 9},
+        {date: 'July', story: ['REST APIS'], id: 10},
     ]
 
     return(

@@ -5,9 +5,9 @@ const Story = (props) => {
     return(
         <div>
             <div className='close' onClick={() => {props.change(false)}}>X</div>
-            <p>
-                {props.data.story}
-            </p>
+            <div className='learning'>
+                {props.data.story.map(key => <p key = {props.data.story.indexOf(key)}>Learned: {key}</p>)}
+            </div>
         </div>
     )
 }
