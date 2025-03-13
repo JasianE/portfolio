@@ -28,7 +28,7 @@ const ProjectCardContainer = () => {
         {
             technologies: ['REACT', 'JAVASCRIPT', 'NPM', 'GIT', 'JEST'],
             photo: battle,
-            link: 'https://rqsadqwesad12313asd.web.app',
+            link: 'https://battleship-2da8b.web.app',
             name: 'Battleship'
         },
         {
